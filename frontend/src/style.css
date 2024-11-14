@@ -1,0 +1,113 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFB6C1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    color: #555;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Container for the whole app */
+.App {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Input and Button Styling */
+input[type="text"] {
+    padding: 12px 20px;
+    font-size: 16px;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #007bff;
+}
+
+button {
+    padding: 12px 30px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Results Section */
+.result-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-container h3 {
+    color: #555;
+}
+
+.result-container p {
+    font-size: 18px;
+}
+
+.result-container a {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.result-container a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .App {
+        padding: 10px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+}
